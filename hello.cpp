@@ -5,8 +5,8 @@ using namespace std;
 int main(void)
 {
   cout << "Hello, World\n";
-  cout << "Hello, Jenkins\n";
-  cout << "Modification done\n";
-  cout << "I have successfully built and run\n";
+  for(int i=0; i < 10; i++){
+	cout << i << endl;
+	}
   return 0;
 }
